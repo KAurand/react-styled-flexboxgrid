@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import isInteger from 'lodash.isinteger'
 
 import config, { DIMENSION_NAMES } from '../config'

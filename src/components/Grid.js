@@ -1,6 +1,7 @@
 
 import PropTypes from 'prop-types'
-import styled, { css } from 'styled-components'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
 
 import config, { DIMENSION_NAMES } from '../config'
 
