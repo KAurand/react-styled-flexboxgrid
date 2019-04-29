@@ -12,20 +12,5 @@ module.exports = {
     '@babel/plugin-proposal-object-rest-spread',
     ['@babel/plugin-proposal-class-properties', { loose }]
   ],
-  env: {
-    emotion: {
-      plugins: [
-        '@babel/plugin-proposal-object-rest-spread',
-        ['@babel/plugin-proposal-class-properties', { loose }],
-        [
-          'transform-rename-import',
-          {
-            original: '^styled-components$',
-            replacement: 'react-emotion'
-          }
-        ],
-        'emotion'
-      ]
-    }
-  }
+  env: {}
 }

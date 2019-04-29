@@ -1,1 +1,2 @@
-module.exports = require('./lib/emotion')
+module.exports = require('./lib/@emotion/styled')
+module.exports = require('./lib/@emotion/core')

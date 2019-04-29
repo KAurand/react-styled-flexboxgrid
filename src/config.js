@@ -1,5 +1,5 @@
 
-import { css } from 'styled-components'
+import { css } from '@emotion/core'
 
 const THEME_CONF = 'flexboxgrid'
 export const BASE_CONF = {
