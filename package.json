@@ -13,10 +13,9 @@
   "jsnext:main": "dist/styled-flexboxgrid.es.js",
   "module": "dist/styled-flexboxgrid.es.js",
   "scripts": {
-    "build": "npm run build:lib && npm run build:emotion && npm run build:dist",
+    "build": "npm run build:lib && npm run build:dist",
     "prebuild:lib": "rm -rf lib/*",
     "build:lib": "babel --out-dir lib src",
-    "build:emotion": "NODE_ENV=emotion babel --out-dir lib/emotion src",
     "prebuild:umd": "rm -rf dist/*",
     "prebuild:dist": "rm -rf dist/*",
     "build:dist": "cross-env NODE_ENV=production rollup -c",
